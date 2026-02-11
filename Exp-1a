@@ -1,0 +1,24 @@
+class primitivedefaultvalues {
+   byte b;
+   short s;
+   int i;
+   long l;
+   float f;
+   char c;
+   double d;
+   boolean bool;
+
+   public static void main(String[] args) {
+        primitivedefaultvalues obj=new primitivedefaultvalues();
+
+        System.out.println("byte defaut values : " + obj.b);
+        System.out.println("short default values : " + obj.s);
+        System.out.println("int default values : " + obj.i);
+        System.out.println("long default values : " + obj.l);
+        System.out.println("float default values : " + obj.f);
+        System.out.println("char default values : " + obj.c);
+        System.out.println("double default values : " + obj.d);
+        System.out.println("boolean default values : " + obj.bool);
+
+        }
+    }
