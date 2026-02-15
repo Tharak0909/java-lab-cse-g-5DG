@@ -1,0 +1,32 @@
+// Create a class
+class MyClass {
+
+    // Method to display a message
+    void displayMessage() {
+        System.out.println("Welcome to Java Programming!");
+    }
+
+    // Method to add two numbers
+    int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
+
+// Main class
+public class ClassDemo {
+
+    public static void main(String[] args) {
+
+        // Creating object of MyClass
+        MyClass obj = new MyClass();
+
+        // Calling display method
+        obj.displayMessage();
+
+        // Calling addNumbers method
+        int result = obj.addNumbers(10, 20);
+
+        // Printing result
+        System.out.println("Sum = " + result);
+    }
+}
